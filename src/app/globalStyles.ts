@@ -14,5 +14,13 @@ export default createGlobalStyle`
         top: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
+
+        @media (max-width: 768px) {
+            width: 50%;
+        }
+
+        @media (max-width: 480px) {
+            width: 75%;
+        }
     }
 `;
